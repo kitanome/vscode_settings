@@ -1,0 +1,194 @@
+{
+  //Editor font & line height
+  "editor.fontFamily": "Berkeley Mono",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": 500,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 28,
+
+
+
+  //Terminal
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.scrollback": 100, //Terminal history (# of lines kept in buffer)
+
+  //Debug console
+  "debug.console.fontSize": 16,
+
+  //Color theme
+  "workbench.colorTheme": "Native One Dark",
+
+  //Editor tab settings
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "window.density.editorTabHeight": "default",
+
+  //Workbench layout
+  "workbench.activityBar.location": "top",
+
+  //APC Customize UI settings
+
+  //Comment base color
+  "editor.tokenColorCustomizations": {
+    "comments": "#e8c9ba"
+  },
+
+  //Better Comments extension - tagged comment color
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00", //! alert comments
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB", //? question comments
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747", ////blank comments
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00", //TODO comments
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "*",
+      "color": "#98C379", //* annotated comments
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+
+  //Brackets color
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#5caeef",
+    "editorBracketHighlight.foreground2": "#dfb976",
+    "editorBracketHighlight.foreground3": "#c172d9",
+    "editorBracketHighlight.foreground4": "#4fb1bc",
+    "editorBracketHighlight.foreground5": "#97c26c",
+    "editorBracketHighlight.foreground6": "#abb2c0",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
+    "terminal.background": "#00000000"
+  },
+
+  //Cursor & Scroll
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.smoothScrolling": true,
+
+  //Relative line numbers (for Vim)
+  "editor.lineNumbers": "relative",
+
+  //Format on save
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modifications",
+  "workbench.editor.highlightModifiedTabs": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "explorer.sortOrder": "type",
+  "explorer.openEditors.visible": 1,
+  "explorer.autoReveal": false,
+
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.stickyScroll.enabled": true,
+
+  //editor minimap (right side)
+  "editor.minimap.enabled": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.maxColumn": 100,
+  "editor.minimap.size": "fill",
+
+  //other editor settings
+  "editor.codeLens": false,
+  "editor.foldingHighlight": false,
+  "editor.glyphMargin": false,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.indentation": false,
+  "editor.padding.bottom": 14,
+  "editor.padding.top": 14,
+  "editor.renderLineHighlight": "none",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "editor.matchBrackets": "near",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.parameterHints.enabled": true,
+  "editor.inlayHints.enabled": "off",
+
+  //Sidebar tree & explorer
+  "workbench.tree.indent": 20,
+  "workbench.tree.enableStickyScroll": true,
+  "explorer.compactFolders": true,
+  "workbench.sideBar.location": "left",
+  "explorer.confirmDragAndDrop": false,
+  "workbench.tree.renderIndentGuides": "always",
+
+  //Markdown
+  "files.defaultLanguage": "markdown",
+  "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
+  "markdown.validate.enabled": true,
+
+  //Turns telemetry off
+  "telemetry.telemetryLevel": "off",
+
+  "files.autoGuessEncoding": true,
+  "editor.find.autoFindInSelection": "multiline",
+
+  //Git
+  "git.autofetch": true,
+  "git.autoStash": true,
+  "git.mergeEditor": true,
+
+  "git.enableSmartCommit": true,
+  "git.suggestSmartCommit": false,
+
+  "jest.runMode": "on-demand",
+  "terminal.integrated.inheritEnv": false,
+  "workbench.startupEditor": "none",
+  "editor.experimentalWhitespaceRendering": "off",
+
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "code-runner.runInTerminal": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.showBreakpointsInOverviewRuler": true,
+  "background.enabled": false
+}
